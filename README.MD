@@ -5,10 +5,15 @@
 ### Demo
 ![](./graggable-demo.gif)
 
+### Install
+```
+npm install -D draggabble-web-component 
+```
+
 #### Usage:
 In React/Vue (import it in whatever component file that you want to use with)
 ```js
-import "./draggable-element.js";
+import "draggabble-web-component"
 ```
 You can insert whatever content as the child nodes of it, super flexible : )
 ```html

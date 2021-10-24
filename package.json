@@ -1,6 +1,6 @@
 {
-  "name": "draggabble-web-component",
-  "version": "1.0.1",
+  "name": "draggable-web-component",
+  "version": "1.0.0",
   "description": "A simplist and flexible draggable exchangeable web component",
   "main": "index.js",
   "scripts": {

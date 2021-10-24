@@ -1,0 +1,28 @@
+{
+  "name": "draggabble-web-component",
+  "version": "1.0.0",
+  "description": "A simplist and flexible draggable exchangeable web component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/six-face/draggable-web-component.git"
+  },
+  "keywords": [
+    "draggable",
+    "exchangeable",
+    "web",
+    "component",
+    "react",
+    "vue",
+    "vanilla"
+  ],
+  "author": "sixface",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/six-face/draggable-web-component/issues"
+  },
+  "homepage": "https://github.com/six-face/draggable-web-component#readme"
+}

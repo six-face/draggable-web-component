@@ -7,7 +7,7 @@
 
 ### Install
 ```
-npm install -D draggable-web-component 
+npm install draggable-web-component 
 ```
 
 #### Usage:

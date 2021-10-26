@@ -1,6 +1,6 @@
 {
   "name": "draggable-web-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simplist and flexible draggable exchangeable web component",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/six-face/draggable-web-component/issues"
   },
-  "homepage": "https://github.com/six-face/draggable-web-component#readme"
+  "homepage": "https://github.com/six-face/draggable-web-component#readme",
+  "files": [
+    "index.js"
+  ]
 }

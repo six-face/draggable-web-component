@@ -9,18 +9,9 @@ class DraggableElement extends HTMLElement {
     // so move this part to this lifecycle function in order to get the final dom
     const style = document.createElement('style')
     style.innerHTML = `:host {display: block;}`
-    if (this.childNodes) {
-      const childNodes = Array.from(this.childNodes)
-      childNodes.forEach(item => {
-        this.root.appendChild(item)
-      })
-      this.root.appendChild(style)
-    } else if (this.children.length === 1) {
-      this.root.innerHTML = this.children[0].innerHTML
-      this.root.appendChild(style)
-    } else {
-      throw new Error('element has to be inserted child node')
-    }
+    const slot = document.createElement('slot')
+    this.root.appendChild(slot)
+    this.root.appendChild(style)
     this.setAttribute('draggable', 'true')
     this.addEventListener('dragstart', dragStarHandler)
     this.addEventListener('dragover', dragOverHandler)

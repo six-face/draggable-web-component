@@ -1,6 +1,6 @@
 {
   "name": "draggable-web-component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simplist and flexible draggable exchangeable web component",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "component",
     "react",
     "vue",
-    "vanilla"
+    "vanilla",
+    "angular"
   ],
   "author": "sixface",
   "license": "ISC",

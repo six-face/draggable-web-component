@@ -1,6 +1,6 @@
 ## A simplist and flexible draggable exchangeable web component
 
-### Can be easy to integerate into React.js / Vue.js / Vanilla js
+### Can be easy to integerate into React.js / Vue.js / Angualar /Vanilla js
 
 ### Demo
 ![](./graggable-demo.gif)
@@ -13,7 +13,7 @@ npm install draggable-web-component
 #### Usage:
 First of all, you have to give every `<draggable-element>` an   `id`  just like we iterate list in React/Vue in order to identify the element itself, then we can go:
 
-In React/Vue (import it in whatever component file that you want to use with)
+In React/Vue/Angular (import it in whatever component file that you want to use with)
 ```js
 import "draggable-web-component"
 ```

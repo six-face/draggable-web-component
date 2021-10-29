@@ -38,9 +38,11 @@ You can insert whatever content as the child nodes of it, super flexible : )
 ```
 ### In Angular
 
-You need to import `CUSTOM_ELEMENTS_SCHEMA` from `@angular/core` in order to support customized element in Angular, so please add scripts below into your `app.module.ts`
+You need to import `CUSTOM_ELEMENTS_SCHEMA` from `@angular/core` in order to support customized element in Angular, so please add scripts below into your `app.module.ts`, and then use it as descriptions above, define your html in template and import the package in the component file
 
 ```js
+// app.module.ts
+
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({

@@ -13,7 +13,8 @@ npm install draggable-web-component
 #### Usage:
 First of all, you have to give every `<draggable-element>` an   `id`  just like we iterate list in React/Vue in order to identify the element itself, then we can go:
 
-In React/Vue/Angular (import it in whatever component file that you want to use with)
+### In React / Vue 
+import it in whatever component file that you want to use with
 ```js
 import "draggable-web-component"
 ```
@@ -35,7 +36,21 @@ You can insert whatever content as the child nodes of it, super flexible : )
         >
       </div>
 ```
-In Plain js + HTML page (just use it as a normal Javascript file as you do in general), since you need web server to serve the `import` syntax in a html file, e.g: 
+### In Angular
+
+You need to import `CUSTOM_ELEMENTS_SCHEMA` from `@angular/core` in order to support customized element in Angular, so please add scripts below into your `app.module.ts`
+
+```js
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
+@NgModule({
+  ...,
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+})
+```
+
+## In Plain js + HTML page 
+  just use it as a normal Javascript file as you do in general), since you need web server to serve the `import` syntax in a html file, e.g: 
 
 ```js
 <script type="module">
